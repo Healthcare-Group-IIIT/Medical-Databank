@@ -7,7 +7,7 @@
 * **Source**
 * **Tags**
 * **Licence**
-* **Paper Publised**
+* **Paper Published**
 
 ## Metadata
 
