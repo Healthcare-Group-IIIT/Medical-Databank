@@ -7,7 +7,7 @@
 * **Source**
 * **Tags**
 * **Licence**
-* **Paper Published**
+* **Paper Publised**
 
 ## Metadata
 
@@ -15,6 +15,9 @@
   * **ID**
   * **Age**
   * **Sex**
+  * **Medical History**
+  * **Travel History**
+  * **Status** : ( Alive or Dead)
 
 * **Disease Profile**
   * **Name**
@@ -43,11 +46,16 @@
 * **Laboratory Test** 
   * **Type of test**
   * **Date/Time**
-  * **Testing Parameters** 
+  * **Testing Parameters**
+    * **Type**
+    * **Value** 
+  * **Additional Comments**
 
 * **Medication/Vaccination/Diet**
   * **Food Consumption**
   * **Medicine Name**
+  * **Medicine Category**
   * **Dosage**
+  * **Duration**
 
 * **Genetics**
