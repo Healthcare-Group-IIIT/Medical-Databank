@@ -5,9 +5,13 @@
 * **Name**
 * **Detailed Description** 
 * **Source**
+* **Dataset Size**
+* **Sample Size**
+* **Type of Dataset** ( csv,image,json etc)
 * **Tags**
 * **Licence**
 * **Paper Publised**
+* **Task**
 
 ## Metadata
 
