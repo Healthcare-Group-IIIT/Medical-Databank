@@ -5,9 +5,14 @@
 * **Name**
 * **Detailed Description** 
 * **Source**
+* **Dataset Size**
+* **Sample Size**
+* **Type of Dataset** ( csv,image,json etc)
 * **Tags**
 * **Licence**
 * **Paper Publised**
+* **Task**
+* **URL to download**
 
 ## Metadata
 
@@ -15,6 +20,9 @@
   * **ID**
   * **Age**
   * **Sex**
+  * **Medical History**
+  * **Travel History**
+  * **Status** : ( Alive or Dead)
 
 * **Disease Profile**
   * **Name**
@@ -43,11 +51,16 @@
 * **Laboratory Test** 
   * **Type of test**
   * **Date/Time**
-  * **Testing Parameters** 
+  * **Testing Parameters**
+    * **Type**
+    * **Value** 
+  * **Additional Comments**
 
 * **Medication/Vaccination/Diet**
   * **Food Consumption**
   * **Medicine Name**
+  * **Medicine Category**
   * **Dosage**
+  * **Duration**
 
 * **Genetics**
