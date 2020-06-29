@@ -15,9 +15,11 @@
 * **URL to download**
 
 ## Metadata
+* **Record ID**
+* **Timestamp**
 
 * **Patients Identifiers**
-  * **ID**
+  
   * **Age**
   * **Sex**
   * **Medical History**
