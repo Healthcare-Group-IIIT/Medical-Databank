@@ -20,11 +20,12 @@
 
 * **Patients Identifiers**
   
+  * **Patient ID**
   * **Age**
   * **Sex**
   * **Medical History**
   * **Travel History**
-  * **Status** : ( Alive or Dead)
+  * **Status:** healthy (discharged)/unhealthy (undergoing treatment)/deceased
 
 * **Disease Profile**
   * **Name**
