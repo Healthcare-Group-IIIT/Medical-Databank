@@ -11,8 +11,7 @@
 
 ## Metadata
 
-* **Patients Identifiers**
-  * ID
+* **Record ID**
 
 * **Disease Profile**
   * **Name**: Brease Cancer (M = malignant, B = benign)

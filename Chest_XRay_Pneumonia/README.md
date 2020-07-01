@@ -16,8 +16,7 @@
 
 ## Metadata
 
-* **Patients Identifiers**
-  * **ID**
+* **Recod ID**
 
 * **Disease Profile**
   * **Name**: Pneumonia
