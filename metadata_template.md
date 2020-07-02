@@ -52,7 +52,7 @@
   * **Impressions**
 
 * **Laboratory Test** 
-  * **Type of test**
+  * **Type of test**[#]
   * **Date/Time**
   * **Testing Parameters**
     * **Type**
@@ -67,3 +67,6 @@
   * **Duration**
 
 * **Genetics**
+
+
+[#] These will be sub categorised in different types of test, for eg Blood Test,Urine test and its testing parameters.[This link](https://www.onemedical.com/blog/live-well/lab-test-guide) contains some of the common test.
