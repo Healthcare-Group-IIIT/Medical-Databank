@@ -19,8 +19,6 @@
 * **Timestamp**
 
 * **Patients Identifiers**
-  
-  * **Patient ID**
   * **Age**
   * **Sex**
   * **Medical History**
