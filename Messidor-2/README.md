@@ -2,8 +2,8 @@
 
 ## General Description
 
-* **Name**
-* **Detailed Description** 
+* **Name:** Messidor-2 Diabetic Retinopathy Dataset
+* **Detailed Description:** The Messidor-2 dataset is a collection of Diabetic Retinopathy (DR) examinations, each consisting of two macula-centered eye fundus images (one per eye). Messidor-2 contains 874 examinations (1748 images). The dataset comes with a spreadsheet containing image pairing.
 * **Source:** [Website](http://www.adcis.net/en/third-party/messidor2/)
 * **Owner:** [ADCIS](http://www.adcis.net/en/third-party/messidor2/)
 * **Tags:** eye, diabetes, retinopathy, classification, medical, eyepacs, images, blind
