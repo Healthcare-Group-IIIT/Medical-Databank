@@ -19,6 +19,7 @@
 * **Timestamp**
 
 * **Patients Identifiers**
+  * **Patient ID**
   * **Age**
   * **Sex**
   * **Medical History**
@@ -30,7 +31,7 @@
   * **Region Affecting the body**
   * **Diagnostic Parameters**( glucose,ph etc)
   * **Symptoms**
-
+  * **Severity**
 
 * **Patient Vitals**
   * **Temperature**
