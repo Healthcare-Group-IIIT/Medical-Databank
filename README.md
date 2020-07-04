@@ -5,7 +5,11 @@ This repo consists of medical datasets organised in different level of structure
 ## List of Datasets
 
 * [Breast Cancer](https://github.com/ayushshivani/Medical-Databank/tree/master/breast_cancer)
-* [Pnemonia(Chest X-Ray)](https://github.com/ayushshivani/Medical-Databank/tree/master/Chest_XRay_Pneumonia)
+* [Pneumonia (Chest X-Ray)](https://github.com/ayushshivani/Medical-Databank/tree/master/Chest_XRay_Pneumonia)
+* Diabetic Retinopathy Induced Blindness
+    - [APTOS India Dataset](https://github.com/Healthcare-Group-IIIT/Medical-Databank/tree/master/APTOS)
+    - [EyePacs Dataset](https://github.com/Healthcare-Group-IIIT/Medical-Databank/tree/master/EyePACS)
+    - [Messidor-2](https://github.com/Healthcare-Group-IIIT/Medical-Databank/tree/master/Messidor-2)
 
 
 ## Contribute
