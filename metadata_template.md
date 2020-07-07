@@ -11,6 +11,7 @@
 * **Tags**
 * **Licence**
 * **Paper Publised**
+* **Version**
 * **Task**
 * **URL to download**
 
