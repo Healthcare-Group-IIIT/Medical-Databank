@@ -10,7 +10,7 @@
 * **Type of Dataset** ( csv,image,json etc)
 * **Tags**
 * **Licence**
-* **Paper Publised**
+* **Paper Published**
 * **Version**
 * **Task**
 * **URL to download**
