@@ -3,6 +3,7 @@
 ## General Description
 
 * **Name**
+* **Disease**
 * **Detailed Description** 
 * **Source**
 * **Dataset Size**
