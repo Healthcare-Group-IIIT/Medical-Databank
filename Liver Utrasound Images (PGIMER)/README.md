@@ -8,7 +8,7 @@
 * **Sample Size**: 56
 * **Type of Dataset**: Images
 * **Paper Publised**: https://europepmc.org/article/PMC/5422227#Sec9
-* **Task**: Liver Segmentation
+* **Task**: Image Segmentation
 * **URL to download**: Not Publicly Available
 
 ## Metadata
