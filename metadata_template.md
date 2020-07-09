@@ -3,18 +3,18 @@
 ## General Description
 
 * **Name**
+* **Version**
 * **Disease**
 * **Detailed Description** 
-* **Source**
+* **Owner**
+* **Original Citation**
+* **License**
 * **Dataset Size**
 * **Sample Size**
-* **Type of Dataset** ( csv,image,json etc)
+* **Type of Dataset** (csv,image,json etc)
+* **Use Case**
+* **Source URL**
 * **Tags**
-* **Licence**
-* **Paper Published**
-* **Version**
-* **Task**
-* **URL to download**
 
 ## Metadata
 * **Record ID**
@@ -30,8 +30,8 @@
 
 * **Disease Profile**
   * **Name**
-  * **Region Affecting the body**
-  * **Diagnostic Parameters**( glucose,ph etc)
+  * **Region of Body Afflicted**
+  * **Diagnostic Parameters** (glucose,ph etc)
   * **Symptoms**
   * **Severity**
 
@@ -39,33 +39,32 @@
   * **Temperature**
   * **BP**
   * **Respiratory**
-  * **Pulse Rate**
-  * **Heart Beat Rate**
+  * **Pulse**
   * **BMI**
 
 * **Imaging Reports**
-  * **Type of Exam** ( Xray, MRI, CT scan)
-  * **Part of the body**
-  * **Date of Exam**
-  * **Clinical History**
+  * **Type of Exam** (Xray, MRI, CT scan)
+  * **Region of Body**
+  * **Examination Timestamp**
   * **Technique of Exam**
   * **Finding**
-  * **Impressions**
+  * **Inferences**
 
 * **Laboratory Test** 
   * **Type of test**[#]
-  * **Date/Time**
+  * **Test Timestamp**
   * **Testing Parameters**
     * **Type**
     * **Value** 
-  * **Additional Comments**
+  * **Comments**
 
-* **Medication/Vaccination/Diet**
-  * **Food Consumption**
-  * **Medicine Name**
-  * **Medicine Category**
-  * **Dosage**
-  * **Duration**
+* **Auxiliary Details** (Medication, Vaccination, Diet)
+  * **Diet**
+  * **Prescriptions**
+    * **Medicine Name**
+    * **Medicine Category**
+    * **Dosage**
+    * **Duration**
 
 * **Genetics**
 
