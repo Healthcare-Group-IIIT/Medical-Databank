@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "",
+        "version": 0,
+        "disease": "",
+        "detailed_description": "",
+        "owner": "",
+        "original_citation": [],
+        "license": "",
+        "dataset_size": "",
+        "sample_size": "",
+        "dataset_type": "",
+        "use_case": "",
+        "source_url": "",
+        "tags": [],
+    },
+    "metadata": {
+        "record_id": 0,
+        "timestamp": "",
+        "patient_identifiers": {
+            "patient_id": 0,
+            "age": 0,
+            "sex": "",
+            "medical_history": [],
+            "travel_history": [],
+            "status": ""
+        },
+        "disease_profile": {
+            "name": "",
+            "afflicted_region": "",
+            "diagnostic_params**:": "",
+            "symptoms": [],
+            "severity": 0,
+        },
+        "vitals": {
+            "temperature": 0,
+            "bp": 0,
+            "respiratory": 0,
+            "pulse": 0,
+            "bmi": 0
+        },
+        "imaging_reports": {
+            "type": "",
+            "region": "",
+            "timestamp": "",
+            "examination_technique": "",
+            "finding": "",
+            "inferences": ""
+        },
+        "lab_test": {
+            "type": "",
+            "timestamp": "",
+            "testing_params": {
+                "type": "",
+                "value": "",
+            },
+            "comments"
+        },
+        "auxiliary_details": {
+            "diet": "",
+            "prescriptions": [{
+                "medicine_name": "",
+                "medicine_category": "",
+                "dosage": "",
+                "duration": ""
+            }],
+        },
+        "genetics": ""
+    }
+}
