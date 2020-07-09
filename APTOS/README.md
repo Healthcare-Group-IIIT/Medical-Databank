@@ -26,5 +26,5 @@
   * **Region Affecting the body:** Eyes
 
 * **Imaging Reports**
-  * **Type of Exam:** Retina scan (color fundus photography)
+  * **Type of Exam:** Color fundus photographs
   * **Part of the body:** Eyes
