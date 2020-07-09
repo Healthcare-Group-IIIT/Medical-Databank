@@ -1,24 +1,24 @@
 {
     "overview": {
-        "name": "",
-        "version": 0,
-        "disease": "",
-        "detailed_description": "",
-        "owner": "",
-        "original_citation": "",
-        "license": "",
-        "dataset_size": "",
-        "sample_size": 0,
-        "dataset_type": "",
-        "use_case": "",
-        "source_url": "",
+        "name": "APTOS 2019 Blindness Detection Dataset",
+        "version": null,
+        "disease": "Diabetic Retinopathy",
+        "detailed_description": "A large set of retina images taken using fundus photography under a variety of imaging conditions. A clinician has rated each image for the severity of diabetic retinopathy on a scale of 0 to 4 going from no symptoms to mild, moderate, severe and proliferative diabetic retinopathy respectively.",
+        "owner": "Asia Pacific Tele-Ophthalmology Society (APTOS), Aravind Eye Hospital",
+        "original_citation": null,
+        "license": null,
+        "dataset_size": null,
+        "sample_size": null,
+        "dataset_type": "Image",
+        "use_case": "Image Classification",
+        "source_url": "https://www.kaggle.com/c/aptos2019-blindness-detection",
         "tags": []
     },
     "metadata": {
         "record_id": false,
         "timestamp": false,
         "patient_identifiers": {
-            "patient_id": false,
+            "patient_id": true,
             "age": false,
             "sex": false,
             "medical_history": [],
@@ -26,11 +26,11 @@
             "status": false
         },
         "disease_profile": {
-            "name": false,
-            "afflicted_region": false,
+            "name": "Diabetic Retinopathy",
+            "afflicted_region": "Eyes",
             "diagnostic_params**:": false,
             "symptoms": [],
-            "severity": false
+            "severity": true
         },
         "vitals": {
             "temperature": false,
@@ -40,8 +40,8 @@
             "bmi": false
         },
         "imaging_reports": {
-            "type": false,
-            "region": false,
+            "type": "Color fundus phtotographs",
+            "region": "Eyes",
             "timestamp": false,
             "examination_technique": false,
             "finding": false,

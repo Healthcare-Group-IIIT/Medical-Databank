@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "Liver Ultrasound Images",
+        "version": null,
+        "disease": "Focal Liver Lesions (Cyst, Hemangioma, Hepatocellular Carcinoma, Metastasis)",
+        "detailed_description": "Out of the 56 images, 41 images were collected from the Department of Radiodiagnosis and Imaging, Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh, India; whereas the remaining 15 images were downloaded from database available online at www.ultrasoundcases.info. Images obtained from PGIMER were recorded using Philips ATL HDI 5000 ultrasound (US) machine and a transducer of 2–5 MHz range. Digital images collected have the size of 800 × 564 pixels with 256 grey levels. Horizontal and vertical resolution of the images is 96 dpi. For using these images for research, patient’s consent was taken prior to recording. PGIMER dataset of 41 liver US images containing focal liver lesions (FLLs) consists of 14 cases of cyst, 7 cases of hemangioma (HEM), 8 cases of hepatocellular carcinoma (HCC), and 12 cases of metastasis (MET). Images acquired online are low-resolution images having a size of 300 × 225. Online dataset of 15 liver US images containing focal liver lesions (FLLs) consists of 6 cases of cyst, 4 cases of hemangioma (HEM), 2 cases of hepatocellular carcinoma (HCC), and 3 cases of metastasis (MET).",
+        "owner": "IIT Roorkee, and PGIMER, Chandigarh, India",
+        "original_citation": "https://europepmc.org/article/PMC/5422227#Sec9",
+        "license": null,
+        "dataset_size": null,
+        "sample_size": 56,
+        "dataset_type": "Image",
+        "use_case": "Image Segmentation",
+        "source_url": "Not publicly available",
+        "tags": []
+    },
+    "metadata": {
+        "record_id": true,
+        "timestamp": false,
+        "patient_identifiers": {
+            "patient_id": false,
+            "age": false,
+            "sex": false,
+            "medical_history": [],
+            "travel_history": [],
+            "status": false
+        },
+        "disease_profile": {
+            "name": "Focal Liver Lesions (Cyst, Hemangioma, Hepatocellular Carcinoma, Metastasis)",
+            "afflicted_region": "Liver",
+            "diagnostic_params**:": false,
+            "symptoms": [],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": "Ultrasound",
+            "region": "Liver",
+            "timestamp": false,
+            "examination_technique": "Ultrasound using Philips ATL HDI 5000 ultrasound (US) machine and a transducer of 2–5 MHz range. (PGIMER dataset)",
+            "finding": "Focal Liver Lesions",
+            "inferences": false
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}
