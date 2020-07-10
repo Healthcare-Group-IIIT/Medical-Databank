@@ -1,0 +1,71 @@
+{
+    "overview": {
+
+        "name": "DRISHTI-GS1",
+        "version": 0,
+        "disease": "Glaucoma",
+        "detailed_description": "Drishti-GS is a dataset meant for validation of segmenting OD, cup and detecting notching. The images in the Drishti-GS dataset have been collected and annotated by Aravind Eye hospital, Madurai, India. This dataset is of a single population as all subjects whose eye images are part of this dataset are Indians.",
+        "owner": "CVIT, IIIT Hyderabad",
+        "original_citation": "www.researchgate.net/profile/Jayanthi_Sivaswamy2/publication/275964723_JSM_BIOMEDICAL_IMAGING_DATA_PAPERS_Keywords_BULLET_BULLET_BULLET_nerve_head_BULLET_BULLET_disk_A_Comprehensive_Retinal_Image_Dataset_for_the_Assessment_of_Glaucoma_from_the_Optic_Nerve_Head_Analysis/links/554c391d0cf29752ee7edb80.pdf",
+        "license": "http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Terms.php",
+        "dataset_size": "",
+        "sample_size": "101 images (50 training + 51 testing)",
+        "dataset_type": "Image",
+        "use_case": "Optic Disc and Optic Cup Segementation, Glaucoma Detection, Detecting Notching, Optic nerve head (ONH) segmentation",
+        "source_url": "http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/enter.php",
+        "tags": ["glaucoma", "eye", "India", "optic cup", "optic disc"]
+    },
+    "metadata": {
+        "record_id": false,
+        "timestamp": false,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": false,
+            "sex": true,
+            "medical_history": [],
+            "travel_history": [],
+            "status": false
+        },
+        "disease_profile": {
+            "name": "Glaucoma",
+            "afflicted_region": "Optic Nerve",
+            "diagnostic_params": false,
+            "symptoms": ["blurred vision", "distorted vision", "vision loss"],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": "Colour Fundus Image",
+            "region": "Eye",
+            "timestamp": false,
+            "examination_technique": "Fundus Photography",
+            "finding": "Glaucomatous eye or normal eye, presence or absence of notching in inferior and / or superior sectors",
+            "inferences": "A binary image - level decision on whether each image is normal or glaucomatous is provided based on the majority opinion(3 out of 4) of experts"
+        },
+        "lab_test": {
+            "type": "Refraction Test",
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}

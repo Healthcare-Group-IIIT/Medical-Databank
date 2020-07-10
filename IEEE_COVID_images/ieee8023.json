@@ -1,0 +1,84 @@
+{
+    "overview": {
+        "name": "COVID-19 image data collection",
+        "version": 0,
+        "detailed_description": "In the context of a COVID-19 pandemic, we want to improve prognostic predictions to triage and manage patient care. Data is the first step to developing any diagnostic/prognostic tool. While there exist large public datasets of more typical chest X-rays from the NIH [Wang 2017], Spain [Bustos 2019], Stanford [Irvin 2019], MIT [Johnson 2019] and Indiana University [Demner-Fushman 2016], there is no collection of COVID-19 chest X-rays or CT scans designed to be used for computational analysis.",
+        "disease": "COVID19",
+        "owner": "University of Montreal (GitHub)",
+        "dataset_type": "Images",
+        "tags": ["COVID19, CXR, Chest X-ray, CT"],
+        "licence": "Each image has license specified in the metadata.csv file. Including Apache 2.0, CC BY-NC-SA 4.0, CC BY 4.0. The metadata.csv, scripts, and other documents are released under a CC BY-NC-SA 4.0 license.",
+        "original_citation": "https://arxiv.org/pdf/2003.11597.pdf",
+        "use_case": "This dataset can be used to generate models which can identify COVID19 patients from CXR and CT scans",
+        "source_url": "https://github.com/ieee8023/covid-chestxray-dataset"
+    },
+    "metadata": {
+        "record_id": false,
+        "timestamp": false,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": true,
+            "sex": true,
+            "medical_history": [],
+            "travel_history": [],
+            "status": true
+        },
+        "disease_profile": {
+            "name": "Covid19",
+            "afflicted_region": "Immune system",
+            "diagnostic_params": false,
+            "symptoms": ["fever", "dry cough", "tiredness", "aches and pains"
+                "sore throat", "diarrhoea"
+            ],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": true,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false,
+            "pO2_saturation": true,
+            "wbc_count": true,
+            "neutrophil_count": true,
+            "lymphocyte_count": true
+        },
+        "imaging_reports": {
+            "type": "CT and X - ray scans",
+            "region": "Lungs",
+            "view": "Posteroanterior (PA), Anteroposterior (AP), AP Supine (APS), or Lateral (L) for X-rays; Axial or Coronal for CT scans. Translations: Bettaufnahme->Supine, Liegend->Supine",
+            "timestamp": true,
+            "examination_technique": false,
+            "finding": "Type of Pneumonia",
+            "inferences": false,
+            "offset": true,
+            "license": true,
+            "source": "URL of the paper or website where the image came from",
+            "clinical_notes": "Clinical notes about the image and/or the patient"
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "needed_supplemental_o2": true,
+            "diet": false,
+            "intubated": true,
+            "went_icu": true,
+            "extubated": true,
+            "location": "Hospital name, city, state, country",
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}

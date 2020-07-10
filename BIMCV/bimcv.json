@@ -1,0 +1,81 @@
+{
+    "overview": {
+        "name": "BIMCV-COVID19",
+        "version": 0,
+        "disease": "COVID19",
+        "detailed_description": "BIMCV-COVID19+ dataset is a large dataset with chest X-ray images CXR (CR, DX) and computed tomography (CT) imaging of COVID-19 patients along with their radiographic findings, pathologies, polymerase chain reaction (PCR), immunoglobulin G (IgG) and immunoglobulin M (IgM) diagnostic antibody tests and radiographic reports from Medical Imaging Databank in Valencian Region Medical Image Bank (BIMCV). The findings are mapped onto standard Unified Medical Language System (UMLS) terminology and they cover a wide spectrum of thoracic entities, contrasting with the much more reduced number of entities annotated in previous datasets. Images are stored in high resolution and entities are localized with anatomical labels in a Medical Imaging Data Structure (MIDS) format. In addition, 10 images were annotated by a team of expert radiologists to include semantic segmentation of radiographic findings. Moreover, extensive information is provided,including the patient’s demographic information, type of projection and acquisition parameters for the imaging study, among others. This first iteration of the database includes 1380 CX, 885 DX and 163 CT studies",
+        "owner": "Medical Imaging Database of Valencia Region",
+        "original_citation": "https://arxiv.org/pdf/2006.01174.pdf",
+        "license": "https: //bimcv.cipf.es/bimcv-projects/bimcv-covid19/bimcv-covid19-dataset-research-use-agreement-2/",
+        "dataset_size": "70 GB",
+        "sample_size": "5381 images,1311 patients",
+        "dataset_type": "Images",
+        "use_case": "This dataset can be used to generate models which can identify COVID19 patients from CXR and CT scans",
+        "source_url": "bimcv.cipf.es/bimcv-projects/bimcv-covid19/",
+        "tags": [
+            "COVID19",
+            "CXR",
+            "Chest X - ray",
+            "CT",
+            "pneumonia",
+            "alveolar pattern"
+        ]
+    },
+    "metadata": {
+        "record_id": true,
+        "timestamp": true,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": true,
+            "sex": true,
+            "medical_history": "Date, type and result of previous diagnostic tests",
+            "travel_history": [],
+            "status": true
+        },
+        "disease_profile": {
+            "name": "Covid19",
+            "afflicted_region": "Immune system",
+            "diagnostic_params": false,
+            "symptoms": ["fever", "dry cough", "tiredness", "aches and pains"
+                "sore throat", "diarrhoea"
+            ],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": "RX or CT scans",
+            "region": "Lungs",
+            "timestamp": true,
+            "examination_technique": false,
+            "finding": "Radiology report (in Spanish), radiological findings, differentialdiagnosis and locations as extracted using natural language processing from theradiology report.",
+            "inferences": true,
+            "locations": "costophrenic angle / lobar / bilateral / lower lobe / ..."
+        },
+        "lab_test": {
+            "type": true,
+            "timestamp": true,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "result": true,
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}
