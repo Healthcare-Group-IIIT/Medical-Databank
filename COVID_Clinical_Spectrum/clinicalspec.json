@@ -29,7 +29,7 @@
             "name": "Covid19",
             "afflicted_region": "Lungs",
             "diagnostic_params": false,
-            "symptoms": 
+            "symptoms": [],
             "severity": false
         },
         "vitals": {
