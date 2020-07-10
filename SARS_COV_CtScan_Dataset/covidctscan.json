@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "SARS-COV-2 Ct-Scan Dataset",
+        "version": 2,
+        "disease": "Covid19",
+        "detailed_description": "a public available SARS-CoV-2 CT scan dataset, containing 1252 CT scans that are positive for SARS-CoV-2 infection (COVID-19) and 1230 CT scans for patients non-infected by SARS-CoV-2, 2482 CT scans in total. These data have been collected from real patients in hospitals from Sao Paulo, Brazil. The aim of this dataset is to encourage the research and development of artificial intelligent methods which are able to identify if a person is infected by SARS-CoV-2 through the analysis of his/her CT scans.",
+        "owner": "PlamenEduardo",
+        "original_citation": "Eduardo Soares and Plamen Angelov, “SARS-COV-2 Ct-Scan Dataset.” Kaggle, doi: 10.34740/KAGGLE/DSV/1199870.",
+        "license": "CC BY-NC-SA 4.0",
+        "dataset_size": "231MB",
+        "sample_size": 2482,
+        "dataset_type": "Images",
+        "use_case": "Classification",
+        "source_url": "https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset",
+        "tags": ["computer science","image data","covid19","image processing","medicine"]
+    },
+    "metadata": {
+        "record_id": true,
+        "timestamp": false,
+        "patient_identifiers": {
+            "patient_id": false,
+            "age": false,
+            "sex": false,
+            "medical_history": [],
+            "travel_history": [],
+            "status": false
+        },
+        "disease_profile": {
+            "name": "Covid 19",
+            "afflicted_region": "Lungs",
+            "diagnostic_params": false,
+            "symptoms": [],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": "CT Scan",
+            "region": "Lungs",
+            "timestamp": false,
+            "examination_technique": "A computerized tomography (CT) scan combines a series of X-ray images taken from different angles around your body and uses computer processing to create cross-sectional images (slices) of the bones, blood vessels and soft tissues inside your body.",
+            "finding": false,
+            "inferences": false
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}
