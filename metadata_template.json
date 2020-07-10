@@ -28,7 +28,7 @@
         "disease_profile": {
             "name": false,
             "afflicted_region": false,
-            "diagnostic_params**:": false,
+            "diagnostic_params": false,
             "symptoms": [],
             "severity": false
         },
