@@ -48,7 +48,7 @@
             "inferences": false
         },
         "lab_test": {
-            "type": ["blood test","Urine Test","Venous blood gas analysis","Arterial blood gas analysis","Testing the presence of other viruses/flus"]
+            "type": ["blood test","Urine Test","Venous blood gas analysis","Arterial blood gas analysis","Testing the presence of other viruses/flus"],
             "timestamp": false,
             "testing_params": {
                 "type": false,
