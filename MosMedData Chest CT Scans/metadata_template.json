@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "MosMedData: Chest CT Scans with COVID-19 Related Findings",
+        "version": 0,
+        "disease": "COVID-19",
+        "detailed_description": "This dataset contains anonymised human lung computed tomography (CT) scans with COVID-19 related findings, as well as without such findings. A small subset of studies has been annotated with binary pixel masks depicting regions of interests (ground-glass opacifications and consolidations). CT scans were obtained between 1st of March, 2020 and 25th of April, 2020, and provided by medical hospitals in Moscow, Russia.",
+        "owner": "Moscow Healthcare Department",
+        "original_citation": "https://www.medrxiv.org/content/10.1101/2020.05.20.20100362v1",
+        "license": "CC BY-NC-ND 3.0",
+        "dataset_size": null,
+        "sample_size": 1110,
+        "dataset_type": "Image",
+        "use_case": "Image Classification",
+        "source_url": "https://mosmed.ai/en/",
+        "tags": []
+    },
+    "metadata": {
+        "record_id": false,
+        "timestamp": false,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": true,
+            "sex": true,
+            "medical_history": [],
+            "travel_history": [],
+            "status": false
+        },
+        "disease_profile": {
+            "name": "COVID-19",
+            "afflicted_region": "Lungs",
+            "diagnostic_params": false,
+            "symptoms": [],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": "CT Scans",
+            "region": "Lungs",
+            "timestamp": false,
+            "examination_technique": false,
+            "finding": false,
+            "inferences": false
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}
