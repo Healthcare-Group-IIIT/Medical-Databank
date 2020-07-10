@@ -10,7 +10,7 @@
         "license": "GPL 2",
         "dataset_size": "18MB",
         "sample_size": 316800,
-        "dataset_type": "images",
+        "dataset_type": "csv",
         "use_case": "COVID prediction",
         "source_url": " https://www.kaggle.com/iamhungundji/covid19-symptoms-checker?select=Cleaned-Data.csv",
         "tags": ["health","biology","covid19","health conditions","classification","future prediction","categorical data"]
