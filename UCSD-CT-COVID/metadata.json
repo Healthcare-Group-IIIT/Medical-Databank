@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "UCSD-CT-COVID",
+        "version": 0,
+        "disease": "COVID-19",
+        "detailed_description": "This dataset can be used to train a classification model to classify between COVID and NON COVID cases using the CT scans available. The metadata structure provides additional information about the comorbidities and includes their severity as well, which can help in further understanding of the case. The comments by doctor can also help in further evaluating the condition. The dataset is divided into two types of images COVID and NON COVID. The metadata file by the name COVID-CT.xlsx provides detailed information about the COVID positive cases.",
+        "owner": "",
+        "original_citation": "",
+        "license": "",
+        "dataset_size": "85 mb",
+        "sample_size": 349,
+        "dataset_type": "Images (PNG, JPEG), and CSV Metadata",
+        "use_case": "Classification and Prediction",
+        "source_url": " https://github.com/UCSD-AI4H/COVID-CT",
+        "tags": []
+    },
+    "metadata": {
+        "record_id": true,
+        "timestamp": true,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": true,
+            "sex": true,
+            "medical_history": [],
+            "travel_history": [],
+            "status": false
+        },
+        "disease_profile": {
+            "name": true,
+            "afflicted_region": true,
+            "diagnostic_params": true,
+            "symptoms": [],
+            "severity": true
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": true,
+            "region": true,
+            "timestamp": true,
+            "examination_technique": true,
+            "finding": true,
+            "inferences": true
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": false
+    }
+}
