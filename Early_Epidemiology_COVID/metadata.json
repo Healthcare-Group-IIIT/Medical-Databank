@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "Early_Epidemiology_COVID",
+        "version": 0,
+        "disease": "COVID-19",
+        "detailed_description": "This dataset contains the detailed epidemiology data for all patients along with their detailed travel history which can help us create Transmission Graphs for COVID. This dataset also contains the symptomps for each patient which can help in the comorbidities analysis.",
+        "owner": "",
+        "original_citation": "",
+        "license": "",
+        "dataset_size": "522 mb",
+        "sample_size": 106923,
+        "dataset_type": "CSV",
+        "use_case": "Epidemiology Analysis",
+        "source_url": "https://github.com/beoutbreakprepared/nCoV2019/tree/master/latest_data",
+        "tags": []
+    },
+    "metadata": {
+        "record_id": true,
+        "timestamp": true,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": true,
+            "sex": true,
+            "medical_history": [],
+            "travel_history": [],
+            "status": true
+        },
+        "disease_profile": {
+            "name": true,
+            "afflicted_region": false,
+            "diagnostic_params": false,
+            "symptoms": [],
+            "severity": true
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": false,
+            "region": false,
+            "timestamp": false,
+            "examination_technique": false,
+            "finding": false,
+            "inferences": false
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": true
+    }
+}
