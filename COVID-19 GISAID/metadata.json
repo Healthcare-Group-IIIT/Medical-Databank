@@ -1,0 +1,70 @@
+{
+    "overview": {
+        "name": "COVID-19 GISAID",
+        "version": 0,
+        "disease": "COVID-19",
+        "detailed_description": "This dataset can help us understand the epidemiology of the COVID-19 virus. The dataset has a detailed description of the case's location and its current status as well. A brief history of the patients travel history is also provided. This can help us understand the trend in death/recovery ratios in various states as well. A time series analysis of the spread can also be done. Using the accession IDs, the COVID-19 genome extracted from the patient can help in virus pathogenicity analysis as well.",
+        "owner": "",
+        "original_citation": "",
+        "license": "",
+        "dataset_size": "24 mb",
+        "sample_size": 845,
+        "dataset_type": "CSV",
+        "use_case": "Epidemiology Analysis and Virus Pathogenicity",
+        "source_url": "https://www.epicov.org/epi3/frontend#d089a",
+        "tags": []
+    },
+    "metadata": {
+        "record_id": true,
+        "timestamp": true,
+        "patient_identifiers": {
+            "patient_id": true,
+            "age": true,
+            "sex": true,
+            "medical_history": [],
+            "travel_history": [],
+            "status": true
+        },
+        "disease_profile": {
+            "name": true,
+            "afflicted_region": true,
+            "diagnostic_params": false,
+            "symptoms": [],
+            "severity": false
+        },
+        "vitals": {
+            "temperature": false,
+            "bp": false,
+            "respiratory": false,
+            "pulse": false,
+            "bmi": false
+        },
+        "imaging_reports": {
+            "type": false,
+            "region": false,
+            "timestamp": false,
+            "examination_technique": false,
+            "finding": false,
+            "inferences": false
+        },
+        "lab_test": {
+            "type": false,
+            "timestamp": false,
+            "testing_params": {
+                "type": false,
+                "value": false
+            },
+            "comments": false
+        },
+        "auxiliary_details": {
+            "diet": false,
+            "prescriptions": [{
+                "medicine_name": false,
+                "medicine_category": false,
+                "dosage": false,
+                "duration": false
+            }]
+        },
+        "genetics": true
+    }
+}
